@@ -1,0 +1,70 @@
+*Задала ім'я
+Сонечко@DESKTOP-L0MOIEV MINGW64 ~
+$ git config --global user.name "Khrystyna"
+*Задала email
+Сонечко@DESKTOP-L0MOIEV MINGW64 ~
+$ git config --global user.email mamalygakhrystyna@gmail.com
+*Створила новий репозиторій та ініціалізувала
+Сонечко@DESKTOP-L0MOIEV MINGW64 ~
+$ cd Desktop\untitled1
+bash: cd: Desktopuntitled1: No such file or directory
+
+Сонечко@DESKTOP-L0MOIEV MINGW64 ~
+$ cd Desktop/untitled1
+
+Сонечко@DESKTOP-L0MOIEV MINGW64 ~/Desktop/untitled1
+$ git init
+Initialized empty Git repository in C:/Users/Сонечко/Desktop/untitled1/.git/
+*Підв'язала локальний репозеторій до віддаленого.
+Сонечко@DESKTOP-L0MOIEV MINGW64 ~/Desktop/untitled1 (master)
+$ git remote add origin https://github.com/KhrystynaMamalyha/Maket.git
+*Закинула всі файли у створену папку
+Сонечко@DESKTOP-L0MOIEV MINGW64 ~/Desktop/untitled1 (master)
+$ git add *
+*Вивела статус репозиторія, для перенляду вмісту
+Сонечко@DESKTOP-L0MOIEV MINGW64 ~/Desktop/untitled1 (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   Background.jpg
+        new file:   img/Background.jpg
+        new file:   img/logo1.jpg
+        new file:   img/logo2.png
+        new file:   logo2.png
+        new file:   maket.html
+        new file:   maket1.css
+        new file:   test.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .idea/
+
+*Додала зміни у віддалений репозиторій
+Сонечко@DESKTOP-L0MOIEV MINGW64 ~/Desktop/untitled1 (master)
+$ git commit -m "Push project on Git"
+[master (root-commit) 8d7acd8] Push project on Git
+ 8 files changed, 196 insertions(+)
+ create mode 100644 Background.jpg
+ create mode 100644 img/Background.jpg
+ create mode 100644 img/logo1.jpg
+ create mode 100644 img/logo2.png
+ create mode 100644 logo2.png
+ create mode 100644 maket.html
+ create mode 100644 maket1.css
+ create mode 100644 test.html
+
+Сонечко@DESKTOP-L0MOIEV MINGW64 ~/Desktop/untitled1 (master)
+$ git push origin master
+Counting objects: 9, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 93.70 KiB | 0 bytes/s, done.
+Total 9 (delta 0), reused 0 (delta 0)
+To https://github.com/KhrystynaMamalyha/Maket.git
+ * [new branch]      master -> master
