@@ -1,28 +1,28 @@
-*Задала ім'я
-Сонечко@DESKTOP-L0MOIEV MINGW64 ~
+*Р—Р°РґР°Р»Р° С–Рј'СЏ
+РЎРѕРЅРµС‡РєРѕ@DESKTOP-L0MOIEV MINGW64 ~
 $ git config --global user.name "Khrystyna"
-*Задала email
-Сонечко@DESKTOP-L0MOIEV MINGW64 ~
+*Р—Р°РґР°Р»Р° email
+РЎРѕРЅРµС‡РєРѕ@DESKTOP-L0MOIEV MINGW64 ~
 $ git config --global user.email mamalygakhrystyna@gmail.com
-*Створила новий репозиторій та ініціалізувала
-Сонечко@DESKTOP-L0MOIEV MINGW64 ~
+*РЎС‚РІРѕСЂРёР»Р° РЅРѕРІРёР№ СЂРµРїРѕР·РёС‚РѕСЂС–Р№ С‚Р° С–РЅС–С†С–Р°Р»С–Р·СѓРІР°Р»Р°
+РЎРѕРЅРµС‡РєРѕ@DESKTOP-L0MOIEV MINGW64 ~
 $ cd Desktop\untitled1
 bash: cd: Desktopuntitled1: No such file or directory
 
-Сонечко@DESKTOP-L0MOIEV MINGW64 ~
+РЎРѕРЅРµС‡РєРѕ@DESKTOP-L0MOIEV MINGW64 ~
 $ cd Desktop/untitled1
 
-Сонечко@DESKTOP-L0MOIEV MINGW64 ~/Desktop/untitled1
+РЎРѕРЅРµС‡РєРѕ@DESKTOP-L0MOIEV MINGW64 ~/Desktop/untitled1
 $ git init
-Initialized empty Git repository in C:/Users/Сонечко/Desktop/untitled1/.git/
-*Підв'язала локальний репозеторій до віддаленого.
-Сонечко@DESKTOP-L0MOIEV MINGW64 ~/Desktop/untitled1 (master)
+Initialized empty Git repository in C:/Users/РЎРѕРЅРµС‡РєРѕ/Desktop/untitled1/.git/
+*РџС–РґРІ'СЏР·Р°Р»Р° Р»РѕРєР°Р»СЊРЅРёР№ СЂРµРїРѕР·РµС‚РѕСЂС–Р№ РґРѕ РІС–РґРґР°Р»РµРЅРѕРіРѕ.
+РЎРѕРЅРµС‡РєРѕ@DESKTOP-L0MOIEV MINGW64 ~/Desktop/untitled1 (master)
 $ git remote add origin https://github.com/KhrystynaMamalyha/Maket.git
-*Закинула всі файли у створену папку
-Сонечко@DESKTOP-L0MOIEV MINGW64 ~/Desktop/untitled1 (master)
+*Р—Р°РєРёРЅСѓР»Р° РІСЃС– С„Р°Р№Р»Рё Сѓ СЃС‚РІРѕСЂРµРЅСѓ РїР°РїРєСѓ
+РЎРѕРЅРµС‡РєРѕ@DESKTOP-L0MOIEV MINGW64 ~/Desktop/untitled1 (master)
 $ git add *
-*Вивела статус репозиторія, для перенляду вмісту
-Сонечко@DESKTOP-L0MOIEV MINGW64 ~/Desktop/untitled1 (master)
+*Р’РёРІРµР»Р° СЃС‚Р°С‚СѓСЃ СЂРµРїРѕР·РёС‚РѕСЂС–СЏ, РґР»СЏ РїРµСЂРµРЅР»СЏРґСѓ РІРјС–СЃС‚Сѓ
+РЎРѕРЅРµС‡РєРѕ@DESKTOP-L0MOIEV MINGW64 ~/Desktop/untitled1 (master)
 $ git status
 On branch master
 
@@ -45,8 +45,8 @@ Untracked files:
 
         .idea/
 
-*Додала зміни у віддалений репозиторій
-Сонечко@DESKTOP-L0MOIEV MINGW64 ~/Desktop/untitled1 (master)
+*Р”РѕРґР°Р»Р° Р·РјС–РЅРё Сѓ РІС–РґРґР°Р»РµРЅРёР№ СЂРµРїРѕР·РёС‚РѕСЂС–Р№
+РЎРѕРЅРµС‡РєРѕ@DESKTOP-L0MOIEV MINGW64 ~/Desktop/untitled1 (master)
 $ git commit -m "Push project on Git"
 [master (root-commit) 8d7acd8] Push project on Git
  8 files changed, 196 insertions(+)
@@ -59,7 +59,7 @@ $ git commit -m "Push project on Git"
  create mode 100644 maket1.css
  create mode 100644 test.html
 
-Сонечко@DESKTOP-L0MOIEV MINGW64 ~/Desktop/untitled1 (master)
+РЎРѕРЅРµС‡РєРѕ@DESKTOP-L0MOIEV MINGW64 ~/Desktop/untitled1 (master)
 $ git push origin master
 Counting objects: 9, done.
 Delta compression using up to 4 threads.
